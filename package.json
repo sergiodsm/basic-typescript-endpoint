@@ -1,0 +1,26 @@
+{
+  "name": "basic-typescript-endpoint",
+  "version": "1.0.0",
+  "description": "Basic app that allows quickly create a Typescript api, 1 endpoint only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiodsm/basic-typescript-endpoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiodsm/basic-typescript-endpoint/issues"
+  },
+  "homepage": "https://github.com/sergiodsm/basic-typescript-endpoint#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}
